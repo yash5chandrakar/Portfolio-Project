@@ -1,0 +1,113 @@
+.contact-outerDiv {
+    height: 700px;
+    background-color: rgb(74, 15, 128);
+}
+
+.contact-heading {
+    color: white;
+    margin: 3%;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.contact-heading hr {
+    width: 99%;
+    height: 1px;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.contact-left span {
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.contact-details {
+    background-color: seashell;
+    /* background-color: white; */
+    height: 500px;
+    width: 85%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+.contact-left-heading {
+    margin: 3%;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.contact-details-left hr {
+    width: 100%;
+    height: 2px;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.contact-details-left {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact-left {
+    width: 35%;
+    text-align: center;
+    padding: 15px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+}
+
+.contact-right {
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px;
+}
+
+.contact-middleDiv {
+    width: 10%
+}
+
+.inputs {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-middleDiv img {
+    height: 100%;
+    width: 100%;
+}
+
+.myForm textarea {
+    width: 90%;
+}
+
+.myForm {
+    text-align: center;
+}
+
+.myForm button {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 1px 5px;
+    background-color: orange;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+}

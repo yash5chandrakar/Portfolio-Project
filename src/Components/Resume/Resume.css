@@ -1,0 +1,319 @@
+.resume-outerDiv {
+    height: 800px;
+    background-color: rgb(74, 15, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.resume-outerDiv img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-middleDiv {
+    width: 10%;
+}
+
+.contact-outerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume-innerDiv {
+    width: 85%;
+    height: 80%;
+    background-color: seashell;
+    /* background-color: white; */
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.resume-leftDiv {
+    width: 40%;
+}
+
+.resume-rightDiv {
+    width: 60%;
+    /* padding: 25px 25px; */
+}
+
+.data-holderDiv {
+    padding: 5px;
+}
+
+.dataDiv {
+    /* padding: 25px; */
+    height: 90%;
+}
+
+.resume-heading {
+    color: white;
+    margin: 3%;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.resume-heading hr {
+    width: 100%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.resume-list {
+    list-style-type: none;
+    text-align: left;
+    padding: 25px 15px;
+}
+
+.resume-leftDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-rightDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    /* margin: 0px 20px; */
+}
+
+.resume-rightDiv::-webkit-scrollbar {
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.resume-rightDiv::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border-radius: 15px;
+}
+
+
+.resume-list li {
+    /* text-align: center; */
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 40px 0px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.resume-list li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+}
+
+.education-list-item {
+    margin: 40px 0px;
+}
+
+.education-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+
+.experience-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+
+
+
+.project-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+
+
+
+.experience-heading hr {
+    width: 99%;
+    height: 1px;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.project-heading hr {
+    width: 99%;
+    height: 1px;
+    /* margin-bottom: 8px; */
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.project-year span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-year a {
+    text-decoration: none;
+}
+
+.education-heading hr {
+    width: 99%;
+    height: 1px;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.education-details {
+    font-family: cursive;
+    /* font-family: 'Kanit', sans-serif; */
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-details p {
+    margin: 5px 0px;
+}
+
+.experience-details p {
+    margin: 15px 0px;
+}
+
+.experience-details {
+    font-family: cursive;
+    /* font-family: 'Kanit', sans-serif; */
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-details {
+    font-family: cursive;
+    color: rgb(108, 59, 108);
+    font-weight: 600;
+    display: flex;
+    font-size: 18px;
+}
+
+.project-details-left {
+    width: 70%;
+    margin: 5px 20px;
+}
+
+.project-details-left p {
+    margin-top: 10px;
+}
+
+.project-details-left a {
+    padding: 3px 5px;
+    margin: 0px 10px;
+    border-radius: 25px;
+    background-color: orange;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.education-type {
+    color: rgb(108, 59, 108);
+    font-weight: 600;
+}
+
+.experience-type {
+    color: rgb(108, 59, 108);
+    font-weight: 600;
+}
+
+.project-details span {
+    padding: 2px 8px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+
+.education-details span {
+    padding: 2px 8px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+.experience-details span {
+    padding: 2px 8px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+.experience-overview {
+    color: rgb(108, 59, 108);
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.skillsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    height: 90%;
+    /* margin: 50px; */
+}
+
+.skills-item {
+    margin: 5px 20px;
+    width: 250px;
+}
+
+.skills-item h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+}
+
+
+.skills-progressBar {
+    height: 20px;
+    background-color: rgb(108, 59, 108);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.skills-currentProgress {
+    height: inherit;
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.interestsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interestsDiv ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.interestsDiv li {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0px;
+
+}

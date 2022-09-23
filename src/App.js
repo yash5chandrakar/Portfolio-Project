@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutMe from './Components/About/AboutMe';
+import Profile from './Components/Home/Profile';
+import ProfilePic from './Components/Home/ProfilePic';
+import Resume from './Components/Resume/Resume';
+import ContactMe from './Components/Contact/ContactMe';
+import Footer from './Components/Footer/Footer';
+// import BreakImg from './assets/images/pageBreak.png'
+import PageBreak from './Components/Home/PageBreak';
 
 function App() {
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className='navigation'>
+        <ul className='navlist'>
+          <li className='heading'><a href='#myProfile'><h1>Yash Chandrakar</h1></a></li>
+          <li><a href='#aboutMe'>AboutMe</a></li>
+          <li><a href='#resume'>Resume</a></li>
+          <li><a href='#contactMe'>ContactMe</a></li>
+        </ul>
+      </nav>
+      <div className='profileOuterDiv' id='myProfile'>
+        <Profile />
+        <ProfilePic />
+      </div>
+      <PageBreak />
+      <AboutMe />
+      <PageBreak />
+      <Resume />
+      <PageBreak />
+      <ContactMe />
+      {/* <PageBreak /> */}
+      <Footer />
     </div>
   );
 }
