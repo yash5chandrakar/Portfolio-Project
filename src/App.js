@@ -5,7 +5,6 @@ import ProfilePic from './Components/Home/ProfilePic';
 import Resume from './Components/Resume/Resume';
 import ContactMe from './Components/Contact/ContactMe';
 import Footer from './Components/Footer/Footer';
-// import BreakImg from './assets/images/pageBreak.png'
 import PageBreak from './Components/Home/PageBreak';
 
 function App() {

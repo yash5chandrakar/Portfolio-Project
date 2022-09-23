@@ -3,7 +3,6 @@ import './Profile.css'
 import GitLogo from '../../assets/images/github.png'
 import LeetLogo from '../../assets/images/LeetCode_logo_black.png'
 import LinkLogo from '../../assets/images/linkedIn.png'
-import Typical from 'react-typical'
 import Doc from '../../assets/resume/resume.pdf'
 
 const Profile = () => {
@@ -30,19 +29,7 @@ const Profile = () => {
                     <div className='profileDetailsRole'>
                         <span className='typical-text'>
                             <h1>
-                                <Typical
-                                    loop={Infinity}
-                                    steps={[
-                                        "Enthusiastic Dev 😎",
-                                        2000,
-                                        "Full Stack Developer 👾",
-                                        2000,
-                                        "React JS 💻",
-                                        2000,
-                                        "Node JS || Express JS 🖱️",
-                                        2000,
-                                    ]}
-                                />
+                                Enthusiastic Dev 😎 || Full Stack Developer 👾 <br /><br /> React JS 💻 || Node JS 🟠|| Express JS 🖱️
                             </h1>
                             <span className='profileDetailsTagline'>
                                 Passionate and Enthusiastic programmer with a thirst for knowledge, at your Service.
